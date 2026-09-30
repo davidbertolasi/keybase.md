@@ -237,3 +237,91 @@ Bloqueado y pendiente:
 - **Módulo de honorarios**: la API de MetaJurídico devuelve un error interno ("Undefined array key is_recurrent") al crear honorarios. El listado completo con montos quedó en `honorarios-pendientes-2026-09.csv` para carga manual desde la web o para reintentar cuando corrijan el error. Los montos marcados ESTIMADO usan 20 Jus a $53.232 y deben reemplazarse por el de cada resolución.
 - **Cuota de la API**: el plan permite 100 pedidos cada 2 horas y se agotó. Se reanuda automáticamente en una hora con: 11 escritos (5 pedidos de regulación, 5 intimaciones art. 54, 1 ejecución en Ferulano), etiquetas CADUCIDAD y CONVENIO-FALTA, y vinculación de los contactos de la agenda a sus expedientes.
 - Se descartó por ahora pedir regulación en Rosales y Uribe (sentencias apeladas) y en Giorgini (elevación a Cámara en 04/2026 y un depósito acreditado en 06/2026 que hay que revisar antes).
+
+---
+
+## 11. Por qué pasa esto, qué hacer en secuencia y cómo lanzar la cuota mensual
+
+### Por qué pasa
+
+**Sembrás en un campo cuyo dueño decide la cosecha.** Cada causa a resultado contra el Estado es un préstamo que le hacés a la Provincia a tasa cero y a plazo indefinido. El Estado tiene tiempo infinito; vos tenés tiempo finito y cuentas mensuales. La asimetría no es un accidente: al deudor le conviene que su acreedor trabaje gratis durante cinco años. Llevás años financiando al Fisco con tu trabajo, y el Fisco lo sabe.
+
+**Nadie decidió no cobrar.** No hay una decisión de "no le cobro a los clientes"; hay una ausencia de decisión que se volvió costumbre. Un juicio a resultado no manda factura, no vence, no duele. Sin un número mensual que duela, la conducta no cambia. La cuota mensual es la primera decisión económica consciente del estudio en años.
+
+**La identidad tapa el problema.** "Soy el que pelea por los que no pueden pagar." Esa frase es verdadera y es la trampa. Sin estudio en pie no hay pelea, y el que sostiene la pelea cinco años es una estructura que cuesta plata. El beneficio de litigar sin gastos es una franquicia del cliente frente al Fisco; se convirtió, sin que nadie lo dijera, en una franquicia del cliente frente a vos.
+
+**Actividad no es resultado.** MetaJurídico lo muestra sin piedad: 215 movimientos cargados, 0 honorarios cargados. Presentar escritos se siente productivo; intimar y cobrar se siente incómodo. La atención, que es tu único recurso escaso con 265 causas, se va a lo que se siente bien.
+
+**La paradoja de la IA.** Automatizaste la redacción y la producción subió. Pero el cuello de botella está después: la firma del cliente y el cobro. Cuando mejorás un eslabón que no es el cuello de botella, lo único que crece es el inventario: decenas de escritos redactados esperando una firma y regulaciones esperando una intimación. Más velocidad de redacción no produce más caja mientras el embudo siga en el mismo lugar.
+
+**Concentración de riesgo.** El 57 % de la cartera depende de un solo pagador y de un solo reloj: la Provincia y sus juzgados. Una sola decisión de Fiscalía (apelar todas las regulaciones, un convenio de diferimiento de Ius) o una sola ley toca 152 causas a la vez. Diversificar no es tener más causas; es tener pagadores y plazos distintos.
+
+**La reciprocidad ordena la relación.** El cliente que no paga nada tampoco debe nada: no firma, no contesta, no aparece. Una cuota chica lo convierte de beneficiario en cliente. Los que pagan responden. El abono mensual no es sólo caja: es la herramienta que destraba la firma.
+
+### Qué hacer, en orden
+
+1. Hoy: escribir la oferta en una página con nombre, precio y qué incluye. Elegir la métrica del mes: Jus cobrados.
+2. Esta semana: armar el link de pago recurrente (suscripción de Mercado Pago o Mobbex, débito el día 5) y la factura mensual automática. Llamar uno por uno a los 15 o 20 clientes que ya tienen cautelar o sentencia.
+3. Semana 2: reunión del grupo del 3 % (presencial en La Plata o por videollamada): balance 2026, qué se ganó, qué viene en 2027, y al final la nueva modalidad.
+4. Semana 3: mensaje masivo por WhatsApp con el link a todos los demás.
+5. Mes 1: primer informe mensual a cada cliente que pagó. Sin informe no hay retención.
+6. En paralelo: la cobranza del stock que ya está en marcha (etiquetas COBRAR, escritos de regulación e intimación).
+7. Día 60: medir adopción, morosidad y bajas. Ajustar precio o contenido. No antes.
+
+### Cómo diseñar la cuota
+
+**Nombre y naturaleza.** No llamarla "gastos de mantenimiento". Si es "gastos", tenés que rendir cuentas de cada peso gastado y el cliente puede exigirlo. Llamarla **cuota de gestión mensual** o **abono de seguimiento**, y en el convenio definirla como honorarios por servicios de gestión, seguimiento e información. Se factura por ARCA todos los meses.
+
+**Precio.** Dos niveles, para anclar y dar opción:
+
+| Nivel | Cuota | Incluye |
+|---|---|---|
+| Seguimiento | $30.000 | Informe mensual por WhatsApp del estado de la causa, acceso al portal del expediente en MetaJurídico, respuesta en 48 horas hábiles, revisión mensual de impulso |
+| Prioridad | $60.000 | Lo anterior más gestiones extra sin cargo (oficios, cédulas, seguimiento de cautelar), una reunión trimestral y prioridad de agenda |
+
+No incluye tasas, bonos, peritos ni gastos de terceros, y eso se dice de entrada.
+
+**Imputación.** Lo que el cliente paga se descuenta de la participación pactada sobre el retroactivo. Los honorarios regulados a cargo de la demandada quedan íntegros para el letrado. Esa cláusula baja la objeción a casi cero: "lo que pagás ahora no es plata de más, es plata adelantada".
+
+**Impago.** Dos cuotas sin pagar suspenden el informe y el canal prioritario. La causa no se abandona nunca; pasa a mantenimiento mínimo. Decirlo por escrito.
+
+**Becas.** Habrá clientes que de verdad no pueden. Se decide caso por caso y se anota. La diferencia entre un estudio y una beneficencia no es que no haya becas; es que las becas se eligen.
+
+**Beneficio de litigar sin gastos.** Pagarle $30.000 mensuales al abogado no es incompatible con el beneficio: cubre tasas y costas, no la relación con el propio letrado, y ese monto no prueba un cambio de fortuna. El riesgo de que Fiscalía lo use es bajo; igual conviene mantener la cuota modesta.
+
+### Cuánto puede rendir
+
+Clientes personas físicas en la cartera: alrededor de 200.
+
+| Adopción | Clientes | Ingreso mensual | En dólares |
+|---|---|---|---|
+| 20 % | 40 | $1,2 millones | USD 780 |
+| 40 % | 80 | $2,4 millones | USD 1.570 |
+| 60 % | 120 | $3,6 millones | USD 2.350 |
+
+Con 40 % de adopción más la cobranza del stock, la meta de USD 2.000 mensuales se cubre. Esperar una baja del 20 al 30 % a los tres meses si el informe mensual no llega: el informe es el producto.
+
+### Cómo promoverla
+
+**Fase 1, los que ya ganaron algo.** Llamada individual de diez minutos a cada cliente con cautelar o sentencia. Son los que sienten el valor en el recibo. Guion:
+
+> "¿Viste el recibo con la bonificación? ¿Te cerró el número? ¿Estás de acuerdo en que eso lo logramos con la cautelar?" **(Regla 5, patrón del sí.)** [Silencio; dejarlo hablar.] **(Regla 1, tensión de silencio; regla 2, validación silenciosa.)**
+> "A partir de octubre el estudio va a trabajar con cuota de gestión. Te lo digo de frente: sostuve estas causas años sin cobrar nada y eso no se aguanta más, y prefiero decírtelo yo antes de que se caiga una causa." **(Regla 19, cercanía estratégica; regla 23, "y" en vez de "pero".)**
+> "Hay dos modalidades: seguimiento por $30.000 o prioridad por $60.000. Lo que pagues se descuenta después del retroactivo. ¿Cuál te queda más cómoda?" **(Regla 8, ilusión de control; anclaje con el precio alto primero.)**
+> "Casi todos los compañeros con cautelar eligieron seguimiento." **(Regla 13, prueba social.)**
+> "Te pido una cosa: cuando salga el retroactivo, contame qué te sirvió y qué no, porque estoy armando esto para todos." **(Regla 6, dependencia por inversión.)**
+
+**Fase 2, la reunión del 3 %.** Invitación a todo el nicho: "Balance del reclamo del 3 %: dónde estamos, qué ganamos en 2026 y qué viene en 2027". Media hora de contenido real (cautelares concedidas, confesiones de la Caja, sentencias) y al final cinco minutos con la nueva modalidad y el link. La sala hace el trabajo: el que ve a otros anotarse se anota. **(Regla 13, prueba social; regla 20, certeza magnética: se presenta como decisión tomada, no como consulta.)**
+
+**Fase 3, el mensaje masivo.** Texto para WhatsApp:
+
+> "Hola [nombre], soy David Bertolasi. Tu causa [carátula corta] sigue activa y este mes [última novedad en una línea]. Desde octubre el estudio trabaja con una cuota de gestión mensual que incluye informe mensual de tu causa, acceso al expediente online y respuesta en 48 horas. Son $30.000 por mes, se descuentan después del retroactivo, y se pagan acá: [link]. Si preferís el plan con prioridad de $60.000, avisame. ¿Arrancamos este mes o el que viene?" **(Regla 8, ilusión de control en el cierre; regla 20, certeza.)**
+
+**Fase 4, referidos.** "Traé a un compañero con el mismo reclamo: un mes sin cargo para los dos." El nicho policial es una comunidad; el boca a boca es el canal.
+
+**Objeciones.**
+- "¿Por qué ahora, si antes no cobrabas?": "¿Qué te hace pensar que antes no hacía falta?" [silencio]. Luego: "Hacía falta; yo lo absorbía. Ya no puedo, y prefiero que lo sepas." **(Regla 3, elusión del debate; regla 19.)**
+- "No puedo pagar": "¿Preferís la cuota de $30.000 o una reducida de $15.000 por seis meses y lo revisamos?" **(Regla 8.)** Si de verdad no puede, beca decidida y anotada.
+- Enojo: "¿Estás bien? Te noto molesto y no es conmigo." **(Regla 11, desarme de ego; regla 24, inmunidad emocional.)** Volver a las dos opciones.
+
+**El motor de retención.** El informe mensual se puede automatizar desde MetaJurídico: cada mes, por cliente, los movimientos del período en tres líneas más el próximo paso. Sin eso la cuota dura tres meses. Con eso dura lo que dure la causa.
