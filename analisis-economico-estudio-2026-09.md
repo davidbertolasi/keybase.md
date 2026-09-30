@@ -233,9 +233,14 @@ Hecho:
 - Etiqueta **COBRAR** en 17 expedientes (Duré, Grisalvo, Arreigada, Isali, Cordiglia, Ferulano, Parra Cáceres, Larrañaga, Enríquez Acosta, Colucci, Poch, Carrizo, Facio, Suárez, Sotelo y las dos ejecuciones propias).
 - Etiqueta **REGULACION-PEDIR** en 14 expedientes (Ramírez, Peralta, Giorgini, Gigena, Méndez, Rosales, Bressa, Uribe x2, Larrañaga Cámara, Riveros, Pucheta, Carlor, Heredia).
 
+Cargado en la segunda ventana de cuota (30/09/2026, 20:10 UTC):
+- **11 escritos borrador** guardados como movimientos editables (docx): pedidos de regulación con intimación en Ramírez (mov. 195038610), Peralta (195038612), Gigena (195038614), Méndez (195038616) y Bressa (195038617); intimaciones art. 54 Ley 14.967 en Cordiglia (195038619), Parra Cáceres (195038623), Colucci (195038624), Facio (195038628) y Enríquez Acosta (195038630); ejecución con embargo en Ferulano (195038634). Cada uno lleva nota interna con lo que hay que verificar en MEV antes de presentar.
+- Etiqueta **CADUCIDAD** en 40 expedientes.
+- Etiqueta **CONVENIO-FALTA** en 29 expedientes; faltan 8 por límite por minuto de la API (Tellechea 63-1992, Rincón, Delgado x2, Suárez, Medrano, Aranda, Rodríguez Manuel), reprogramados.
+
 Bloqueado y pendiente:
 - **Módulo de honorarios**: la API de MetaJurídico devuelve un error interno ("Undefined array key is_recurrent") al crear honorarios. El listado completo con montos quedó en `honorarios-pendientes-2026-09.csv` para carga manual desde la web o para reintentar cuando corrijan el error. Los montos marcados ESTIMADO usan 20 Jus a $53.232 y deben reemplazarse por el de cada resolución.
-- **Cuota de la API**: el plan permite 100 pedidos cada 2 horas y se agotó. Se reanuda automáticamente en una hora con: 11 escritos (5 pedidos de regulación, 5 intimaciones art. 54, 1 ejecución en Ferulano), etiquetas CADUCIDAD y CONVENIO-FALTA, y vinculación de los contactos de la agenda a sus expedientes.
+- **Cuota de la API**: el plan permite 100 pedidos cada 2 horas y se agotó. Reintento confirmado el 30/09 a las 20:10 UTC: el error persiste, es del servidor de MetaJurídico. Queda pendiente por cuota: 8 etiquetas CONVENIO-FALTA y la vinculación de 18 contactos de la agenda a sus expedientes, reprogramadas automáticamente.
 - Se descartó por ahora pedir regulación en Rosales y Uribe (sentencias apeladas) y en Giorgini (elevación a Cámara en 04/2026 y un depósito acreditado en 06/2026 que hay que revisar antes).
 
 ---
