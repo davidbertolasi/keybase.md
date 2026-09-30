@@ -237,11 +237,11 @@ Cargado en la segunda ventana de cuota (30/09/2026, 20:10 UTC):
 - **11 escritos borrador** guardados como movimientos editables (docx): pedidos de regulación con intimación en Ramírez (mov. 195038610), Peralta (195038612), Gigena (195038614), Méndez (195038616) y Bressa (195038617); intimaciones art. 54 Ley 14.967 en Cordiglia (195038619), Parra Cáceres (195038623), Colucci (195038624), Facio (195038628) y Enríquez Acosta (195038630); ejecución con embargo en Ferulano (195038634). Cada uno lleva nota interna con lo que hay que verificar en MEV antes de presentar.
 - Etiqueta **CADUCIDAD** en 40 expedientes.
 - Etiqueta **CONVENIO-FALTA** en los 37 expedientes previstos.
-- **Contactos vinculados a sus expedientes** (10): Ferreira, Funes, Mella, Romero José, Ferreyra, Brito, Giménez Silvana, Díaz Silvia y Salvatierra (dos causas). Quedan 5 contactos cuyo expediente hay que ubicar por carátula (Corregidor, Torres Giménez, Gallardo Lucía, González María del Carmen, Ruda): el número 25776 de Corregidor no existe en el sistema con ese formato; los otros cuatro quedaron para la próxima ventana de cuota.
+- **Contactos vinculados a sus expedientes** (10): Ferreira, Funes, Mella, Romero José, Ferreyra, Brito, Giménez Silvana, Díaz Silvia y Salvatierra (dos causas). Los otros 5 contactos de la agenda (Corregidor, Torres Giménez, Gallardo Lucía, González María del Carmen y Ruda) no tienen expediente cargado en MetaJurídico: se buscaron por número y por carátula, en activos y archivados, sin resultado. Sus causas nunca se importaron al sistema o fueron eliminadas.
 
 Bloqueado y pendiente:
 - **Módulo de honorarios**: la API de MetaJurídico devuelve un error interno ("Undefined array key is_recurrent") al crear honorarios. El listado completo con montos quedó en `honorarios-pendientes-2026-09.csv` para carga manual desde la web o para reintentar cuando corrijan el error. Los montos marcados ESTIMADO usan 20 Jus a $53.232 y deben reemplazarse por el de cada resolución.
-- **Cuota de la API**: el plan permite 100 pedidos cada 2 horas y se agotó. Reintento confirmado el 30/09 a las 20:10 UTC: el error persiste, es del servidor de MetaJurídico. Queda pendiente por cuota únicamente la vinculación de 5 contactos cuyo expediente hay que ubicar por carátula, reprogramada automáticamente.
+- **Cuota de la API**: el plan permite 100 pedidos cada 2 horas y se agotó. Reintento confirmado el 30/09 a las 20:10 UTC: el error persiste, es del servidor de MetaJurídico. No queda nada pendiente de carga por cuota. Carga cerrada el 30/09/2026 a las 22:10 UTC.
 - Se descartó por ahora pedir regulación en Rosales y Uribe (sentencias apeladas) y en Giorgini (elevación a Cámara en 04/2026 y un depósito acreditado en 06/2026 que hay que revisar antes).
 
 ---
