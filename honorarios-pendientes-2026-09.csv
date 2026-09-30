@@ -1,0 +1,17 @@
+expedient_id,expediente,causa,deudor,fecha_regulacion,monto_ars,tipo_monto,proximo_paso
+93386,AM-9377,Duré c/ Fiscalía de Estado y Municipalidad de Tigre,Fiscalía de Estado,2026-09-03,571172.22,REAL,10 Jus + intereses 1ª inst. pendientes; apelación de Fiscalía en trámite
+93386,AM-9377,Duré c/ Fiscalía de Estado y Municipalidad de Tigre,Municipalidad de Tigre,2026-09-03,441612.45,REAL,8 Jus 2ª inst. + intereses; no depositó nada; solidaria por tramo 1ª inst.
+107498,22984,Grisalvo c/ Fisco PBA (ART),Fisco PBA,2026-09-17,1064640,ESTIMADO 20 Jus,Giro ordenado 18/09/2026: cobrar
+80354,32298,Arreigada c/ Parisi (despido),Parisi (privado),2024-08-26,1064640,ESTIMADO 20 Jus,Ejecución pedida 11/2025; embargo BCRA + inhibición
+80375,5878,Isali c/ Castro (despido),Castro (privado),2023-04-21,1064640,ESTIMADO 20 Jus,Oficios 05-06/2026; verificar y embargar
+93384,A-45-2024,Cordiglia (amparo),Fiscalía de Estado + Mun. San Isidro,2025-03-06,1064640,ESTIMADO 20 Jus,Archivo 02/2026; verificar cobro; intimar art. 54
+93396,SI-49240-2024,Ferulano (amparo),Fiscalía de Estado + Mun. Pilar,2025-06-18,1064640,ESTIMADO 20 Jus,Intimación 11/2025 vencida; ejecutar
+93390,LP-70128-2023,Parra Cáceres (amparo),Mun. La Plata + Fisco,2024-11-25,1064640,ESTIMADO 20 Jus,Intimar art. 54 y ejecutar
+107153,33024,Larrañaga (amparo),Mun. Coronel Suárez,2026-08-28,1064640,ESTIMADO 20 Jus,Apelación de honorarios en trámite
+106104,93113,Enríquez Acosta (cautelar autónoma),Ministerio de Seguridad / Fiscalía,2026-09-16,1064640,ESTIMADO 20 Jus,Intimar vencidos 10 días de notificación
+110553,52479,Colucci c/ Galeno ART,Galeno ART,2026-04-13,1064640,ESTIMADO 20 Jus,Intimar y ejecutar
+80389,LP-30002-2013,Poch (sucesión),Herederos,2026-09-04,1064640,ESTIMADO 20 Jus,CD a herederos 10 días; embargo hijuela
+106518,26860,Carrizo (sucesión),Herederos,2024-11-19,1064640,ESTIMADO 20 Jus,Sin movimiento; intimar
+107310,32953,Facio c/ Arriola (desalojo),Demandados,2025-11-28,1064640,ESTIMADO 20 Jus,Intimar art. 54 y ejecutar
+106712,INC-67711,Bertolasi c/ Mun. General Alvear (ejec. hon. Sotelo),Mun. General Alvear,2026-05-11,1064640,ESTIMADO 20 Jus,Pronto despacho; embargo fondos municipales
+80345,LP-43640-2025,Bertolasi c/ Fiscalía de Estado (ejec. hon.),Fiscalía de Estado,2025-06-25,1064640,ESTIMADO 20 Jus,Pronto despacho

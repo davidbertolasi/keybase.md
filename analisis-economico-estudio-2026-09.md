@@ -224,3 +224,16 @@ Contexto: el cliente empieza a cobrar el 3 % gracias a la cautelar. Objetivo: fi
 4. Vincular cliente y responsable en los 265 expedientes a partir de la agenda de contactos.
 
 Nada de eso lo hice todavía: son escrituras en tu sistema y las hago sólo con tu indicación expresa.
+
+---
+
+## 10. Estado de ejecución en MetaJurídico (30/09/2026)
+
+Hecho:
+- Etiqueta **COBRAR** en 17 expedientes (Duré, Grisalvo, Arreigada, Isali, Cordiglia, Ferulano, Parra Cáceres, Larrañaga, Enríquez Acosta, Colucci, Poch, Carrizo, Facio, Suárez, Sotelo y las dos ejecuciones propias).
+- Etiqueta **REGULACION-PEDIR** en 14 expedientes (Ramírez, Peralta, Giorgini, Gigena, Méndez, Rosales, Bressa, Uribe x2, Larrañaga Cámara, Riveros, Pucheta, Carlor, Heredia).
+
+Bloqueado y pendiente:
+- **Módulo de honorarios**: la API de MetaJurídico devuelve un error interno ("Undefined array key is_recurrent") al crear honorarios. El listado completo con montos quedó en `honorarios-pendientes-2026-09.csv` para carga manual desde la web o para reintentar cuando corrijan el error. Los montos marcados ESTIMADO usan 20 Jus a $53.232 y deben reemplazarse por el de cada resolución.
+- **Cuota de la API**: el plan permite 100 pedidos cada 2 horas y se agotó. Se reanuda automáticamente en una hora con: 11 escritos (5 pedidos de regulación, 5 intimaciones art. 54, 1 ejecución en Ferulano), etiquetas CADUCIDAD y CONVENIO-FALTA, y vinculación de los contactos de la agenda a sus expedientes.
+- Se descartó por ahora pedir regulación en Rosales y Uribe (sentencias apeladas) y en Giorgini (elevación a Cámara en 04/2026 y un depósito acreditado en 06/2026 que hay que revisar antes).
